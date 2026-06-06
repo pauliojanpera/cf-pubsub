@@ -1,0 +1,11 @@
+{
+  "name": "cf-pubsub",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "typescript": "^5.5.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

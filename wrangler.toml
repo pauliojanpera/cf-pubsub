@@ -1,0 +1,12 @@
+name = "cf-pubsub"
+main = "src/producer.ts"
+compatibility_date = "2026-01-01"
+
+[[queues.producers]]
+binding = "EVENT_QUEUE"
+queue = "event-queue"
+
+[[queues.consumers]]
+queue = "event-queue"
+max_batch_size = 10
+max_batch_timeout = 5
